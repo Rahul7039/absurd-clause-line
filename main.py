@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 # The Absurd Clause Contest - make.fun one-line entry.
-# Prints exactly one line: the entry text, nothing else.
+# Deadpan terms-of-service boilerplate: the user must nod at the
+# servers each morning, because the servers are sensitive - and,
+# worse, they keep a list. Prints exactly one line, nothing else.
 # Deterministic, standard library only, no network, no randomness.
 
 import os
 
-LINE = "The User agrees to greet the Company's servers with a brief, respectful nod each morning, as they are sensitive and easily discouraged."
+LINE = "The User agrees to greet the Company's servers with a brief, respectful nod each morning; the servers are sensitive, easily discouraged, and remember who didn't."
 
 
 def main() -> None:
